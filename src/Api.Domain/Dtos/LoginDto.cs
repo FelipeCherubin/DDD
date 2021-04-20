@@ -6,7 +6,7 @@ namespace Api.Domain.Dtos
     {
         [Required(ErrorMessage = "Email é um campo obrigatório para Login")]
         [EmailAddress(ErrorMessage = "Email em formato inválido")]
-        [StringLength(100, ErrorMessage = "Email deve ter no máximo {1} caractere(s)")]
+        [StringLength(100, ErrorMessage = "Email deve ter no máximo {1} caractere")]
         public string Email { get; set; }
     }
 }
