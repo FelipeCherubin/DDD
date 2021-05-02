@@ -42,7 +42,7 @@ namespace Api.Service.Services
                     return new
                     {
                         authenticated = false,
-                        menssage = "Falha ao Autenticar"
+                        menssage = "Falha ao Autenticar Man!"
                     };
                 }
                 else
