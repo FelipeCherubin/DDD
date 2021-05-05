@@ -22,7 +22,9 @@ namespace Api.Service.Services
 
         private IConfiguration _configuration { get; }
 
-        public LoginService(IUserRepository repository, SigningConfigurations signingConfigurations, TokenConfigurations tokenConfigurations, IConfiguration configuration)
+        public LoginService(IUserRepository repository,
+        SigningConfigurations signingConfigurations,
+        TokenConfigurations tokenConfigurations, IConfiguration configuration)
         {
             _repository = repository;
             _signingConfigurations = signingConfigurations;
